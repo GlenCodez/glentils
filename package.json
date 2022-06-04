@@ -1,9 +1,14 @@
 {
-  "private": true,
   "name": "glentils",
-  "type": "module",
   "version": "0.1.0",
   "decription": "Software utilities by Glen.",
   "author": "Glen Burchfield <g@glenned.com> (https://www.glenned.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "bin": {
+    "@glenglen/first-npm-cli": "./bin/first-npm-cli.js",
+    "first-npm-cli": "./bin/first-npm-cli.js"
+  }
 }
