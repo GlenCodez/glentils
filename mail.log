@@ -1,0 +1,568 @@
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: all
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: inet_addr_local: configured 2 IPv4 addresses
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: inet_addr_local: configured 2 IPv6 addresses
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: process generation: 3 (3)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? permit_mx_backup_networks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? qmqpd_authorized_clients
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? relay_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_client_event_limit_exceptions ~? smtpd_access_maps
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: smtpd_client_event_limit_exceptions: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: mynetworks ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: mynetworks ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: mynetworks ~? mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: host
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: been_here: 127.0.0.1/32: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: been_here: 10.0.0.17/32: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: been_here: [::1]/128: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: been_here: [fe80::636a:62d6:8ea2:a63f]/128: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: mynetworks_core: 127.0.0.1/32 10.0.0.17/32 [::1]/128 [fe80::636a:62d6:8ea2:a63f]/128 
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: mynetworks ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: mynetworks ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: mynetworks ~? mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: relay_domains ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: relay_domains ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: relay_domains ~? mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: relay_domains ~? permit_mx_backup_networks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: relay_domains ~? qmqpd_authorized_clients
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: relay_domains ~? relay_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: permit_mx_backup_networks ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: permit_mx_backup_networks ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: permit_mx_backup_networks ~? mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: permit_mx_backup_networks ~? permit_mx_backup_networks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: connect to subsystem private/proxymap
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/proxymap socket: wanted attribute: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: proxymap_protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/proxymap socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = open
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr table = unix:passwd.byname
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr flags = 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/proxymap socket: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/proxymap socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 16
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/proxymap socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_proxy_open: connect to map=unix:passwd.byname status=0 server_flags=fixed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_open: proxy:unix:passwd.byname
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: Compiled against Berkeley DB: 5.3.28?
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: Run-time linked against Berkeley DB: 5.3.28?
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_open: hash:/etc/aliases
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: user = mailuser
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: password = Palermo
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: dbname = mailserver
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: result_format = %s
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: option_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: option_group = client
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: tls_key_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: tls_cert_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: tls_CAfile = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: tls_CApath = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: tls_ciphers = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_bool: /etc/postfix/mysql-virtual-alias-maps.cf: tls_verify_cert = on
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_bool: /etc/postfix/mysql-virtual-alias-maps.cf: require_result_set = on
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_int: /etc/postfix/mysql-virtual-alias-maps.cf: expansion_limit = 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: query = SELECT destination FROM virtual_aliases WHERE source='%s'
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: domain = 
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-alias-maps.cf: hosts = 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_open: mysql:/etc/postfix/mysql-virtual-alias-maps.cf
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: user = mailuser
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: password = Palermo
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: dbname = mailserver
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: result_format = %s
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: option_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: option_group = client
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: tls_key_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: tls_cert_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: tls_CAfile = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: tls_CApath = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: tls_ciphers = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_bool: /etc/postfix/mysql-virtual-email2email.cf: tls_verify_cert = on
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_bool: /etc/postfix/mysql-virtual-email2email.cf: require_result_set = on
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_int: /etc/postfix/mysql-virtual-email2email.cf: expansion_limit = 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: query = SELECT email FROM virtual_users WHERE email='%s'
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: domain = 
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-email2email.cf: hosts = 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_open: mysql:/etc/postfix/mysql-virtual-email2email.cf
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: user = mailuser
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: password = Palermo
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: dbname = mailserver
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: result_format = %s
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: option_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: option_group = client
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: tls_key_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: tls_cert_file = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: tls_CAfile = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: tls_CApath = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: tls_ciphers = <NULL>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_bool: /etc/postfix/mysql-virtual-mailbox-maps.cf: tls_verify_cert = on
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_bool: /etc/postfix/mysql-virtual-mailbox-maps.cf: require_result_set = on
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_int: /etc/postfix/mysql-virtual-mailbox-maps.cf: expansion_limit = 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: query = SELECT 1 FROM virtual_users WHERE email='%s'
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: domain = 
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: cfg_get_str: /etc/postfix/mysql-virtual-mailbox-maps.cf: hosts = 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_open: mysql:/etc/postfix/mysql-virtual-mailbox-maps.cf
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? permit_mx_backup_networks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? qmqpd_authorized_clients
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? relay_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: smtpd_access_maps ~? smtpd_access_maps
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: unknown_helo_hostname_tempfail_action = defer_if_permit
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: unknown_address_tempfail_action = defer_if_permit
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: unverified_recipient_tempfail_action = defer_if_permit
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: unverified_sender_tempfail_action = defer_if_permit
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_open: static:rest
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: auto_clnt_create: transport=local endpoint=private/tlsmgr
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: auto_clnt_open: connected to private/tlsmgr
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: tlsmgr_protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = seed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr size = 32
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: seed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: seed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: XzFR5dVgkbWFoBHvvHi/6cQj7kbynz/i3yO7h2ksF4E=
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = policy
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr cache_type = smtpd
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: cachable
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: cachable
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: timeout
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: timeout
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 3600
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: fast_flush_domains ~? debug_peer_list
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: parent_domain_matches_subdomains: fast_flush_domains ~? fast_flush_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: auto_clnt_create: transport=local endpoint=private/anvil
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: connection established
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: master_notify: status 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: resource
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: software
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: connect from mail-qt1-f182.google.com[209.85.160.182]
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: smtp_stream_setup: maxtime=30 enable_deadline=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: smtpd_client_event_limit_exceptions: mail-qt1-f182.google.com ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: smtpd_client_event_limit_exceptions: 209.85.160.182 ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: smtpd_client_event_limit_exceptions: mail-qt1-f182.google.com ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: smtpd_client_event_limit_exceptions: 209.85.160.182 ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: smtpd_client_event_limit_exceptions: mail-qt1-f182.google.com ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: smtpd_client_event_limit_exceptions: 209.85.160.182 ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: auto_clnt_open: connected to private/anvil
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/anvil: wanted attribute: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: anvil_protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/anvil: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = connect
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr ident = smtp:209.85.160.182
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/anvil: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/anvil: wanted attribute: count
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: count
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/anvil: wanted attribute: rate
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: rate
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/anvil: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 220 Ashley ESMTP Postfix (Ubuntu)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: < mail-qt1-f182.google.com[209.85.160.182]: EHLO mail-qt1-f182.google.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-Ashley
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-PIPELINING
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-SIZE 10240000
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-ETRN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-STARTTLS
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-ENHANCEDSTATUSCODES
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-8BITMIME
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-DSN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-SMTPUTF8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250 CHUNKING
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: < mail-qt1-f182.google.com[209.85.160.182]: STARTTLS
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 220 2.0.0 Ready to start TLS
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = seed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr size = 32
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: seed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: seed
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: jMoL9LqixKftLJH/+k9takXLgb0kX51cqQ3Hp/HuNSw=
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = tktkey
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr keyname = [data 0 bytes]
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: keybuf
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: keybuf
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: c+EndLOxkK//tM5NOAnkZUfga8z8DL8khJTJ21fYgExm5j0dTwqu/U1cFfHHc6gm6OeU4k4mlKnY4oiv/aOd1CKdj+ZjsxvzkVrGMy53A1R6J6FiAAAAAA==
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/tlsmgr: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_create: SASL service=smtp, realm=(null)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: noanonymous
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: Connecting
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: VERSION?1?2
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: MECH?PLAIN?plaintext
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: plaintext
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: MECH?LOGIN?plaintext
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: plaintext
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: SPID?4944
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: CUID?1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: COOKIE?8cb02dfc8917ca571ec8017c1d7ef893
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_connect: auth reply: DONE
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_mech_filter: keep mechanism: PLAIN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: xsasl_dovecot_server_mech_filter: keep mechanism: LOGIN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: smtpd_sasl_mechanism_filter: plain ~? external
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: smtpd_sasl_mechanism_filter: plain ~? static:rest(0,lock|utf8_request)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: sasl_mech_filter: keep SASL mechanism: 'PLAIN'
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: smtpd_sasl_mechanism_filter: login ~? external
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_string: smtpd_sasl_mechanism_filter: login ~? static:rest(0,lock|utf8_request)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: sasl_mech_filter: keep SASL mechanism: 'LOGIN'
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: < mail-qt1-f182.google.com[209.85.160.182]: EHLO mail-qt1-f182.google.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-Ashley
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-PIPELINING
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-SIZE 10240000
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-ETRN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-AUTH PLAIN LOGIN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-ENHANCEDSTATUSCODES
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-8BITMIME
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-DSN
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250-SMTPUTF8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250 CHUNKING
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: < mail-qt1-f182.google.com[209.85.160.182]: MAIL FROM:<g@glenned.com> SIZE=2691
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: extract_addr: input: <g@glenned.com>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: smtpd_check_addr: addr=g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: connect to subsystem private/rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: trivial_rewrite_protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr rule = local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = ""
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: ""
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: local: "" -> ""
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr rule = local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: local: g@glenned.com -> g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = resolve
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr sender = 
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: transport
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: transport
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: smtp
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: nexthop
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: nexthop
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 4096
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: resolve_clnt: `' -> `g@glenned.com' -> transp=`smtp' host=`glenned.com' rcpt=`g@glenned.com' flags= class=default
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: install entry key ?g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: extract_addr: in: <g@glenned.com>, result: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr rule = local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = double-bounce
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: double-bounce@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: local: double-bounce -> double-bounce@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: smtpd_check_rewrite: trying: permit_inet_interfaces
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_inet_interfaces: mail-qt1-f182.google.com 209.85.160.182
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: fsspace: .: block size 4096, blocks free 98939332
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: smtpd_check_queue: blocks 4096 avail 98939332 min_free 0 msg_size_limit 10240000
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250 2.1.0 Ok
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: < mail-qt1-f182.google.com[209.85.160.182]: RCPT TO:<mail@glenburch.com>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: extract_addr: input: <mail@glenburch.com>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: smtpd_check_addr: addr=mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr rule = local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end).password does not exist
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: local: g@glenned.com -> g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr rule = local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: local: mail@glenburch.com -> mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = resolve
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr sender = g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/trivial-rewrite[4945]: warning: do not list domain glenburch.com in BOTH mydestination and virtual_mailbox_domains
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: transport
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: transport
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: nexthop
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: nexthop
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: Ashley
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 256
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: resolve_clnt: `g@glenned.com' -> `mail@glenburch.com' -> transp=`local' host=`Ashley' rcpt=`mail@glenburch.com' flags= class=local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: install entry key g@glenned.com?mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: extract_addr: in: <mail@glenburch.com>, result: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> START Helo command RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_mynetworks: mail-qt1-f182.google.com 209.85.160.182
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_invalid_helo_hostname
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_invalid_hostname: mail-qt1-f182.google.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_invalid_helo_hostname status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_non_fqdn_helo_hostname
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_non_fqdn_hostname: mail-qt1-f182.google.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_non_fqdn_helo_hostname status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> END Helo command RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> START Sender address RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_mynetworks: mail-qt1-f182.google.com 209.85.160.182
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_non_fqdn_sender
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_non_fqdn_address: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_non_fqdn_sender status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unknown_sender_domain
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_unknown_address: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: cached: local: mail@glenburch.com -> mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = rewrite
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr rule = local
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: address
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: rewrite_clnt: local: g@glenned.com -> g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr request = resolve
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr sender = mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr address = g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: transport
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: transport
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: smtp
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: nexthop
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: nexthop
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: flags
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 4096
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: private/rewrite socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: resolve_clnt: `mail@glenburch.com' -> `g@glenned.com' -> transp=`smtp' host=`glenned.com' rcpt=`g@glenned.com' flags= class=default
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: install entry key mail@glenburch.com?g@glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_unknown_mailhost: glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: lookup glenned.com type MX flags 
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dns_query: glenned.com (MX): OK
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dns_get_answer: type MX for glenned.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: message repeated 4 times: [ dns_get_answer: type MX for glenned.com]
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unknown_sender_domain status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> END Sender address RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> START Recipient address RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_mynetworks: mail-qt1-f182.google.com 209.85.160.182
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=defer_unauth_destination
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_unauth_destination: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_auth_destination: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: move existing entry key g@glenned.com?mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=defer_unauth_destination status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> END Recipient address RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> START Recipient address RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_mynetworks: mail-qt1-f182.google.com 209.85.160.182
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? 127.0.0.0/8
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::ffff:127.0.0.0]/104
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostname: mynetworks: mail-qt1-f182.google.com ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_hostaddr: mynetworks: 209.85.160.182 ~? [::1]/128
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: mail-qt1-f182.google.com: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: match_list_match: 209.85.160.182: no match
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_mynetworks status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=permit_sasl_authenticated status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_non_fqdn_recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_non_fqdn_address: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_non_fqdn_recipient status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unknown_recipient_domain
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_unknown_address: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: leave existing entry key g@glenned.com?mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unknown_recipient_domain status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unlisted_recipient
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> CHECKING Recipient address VALIDATION MAPS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: leave existing entry key g@glenned.com?mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: recipient_canonical_maps: mail@glenburch.com: not found
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: recipient_canonical_maps: mail: not found
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: recipient_canonical_maps: @glenburch.com: not found
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: mail_addr_find: mail@glenburch.com -> (not found)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: canonical_maps: mail@glenburch.com: not found
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: canonical_maps: mail: not found
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: canonical_maps: @glenburch.com: not found
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: mail_addr_find: mail@glenburch.com -> (not found)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_mysql_get_active: attempting to connect to host 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_mysql: successful connection to host 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: mysql:/etc/postfix/mysql-virtual-alias-maps.cf: successful query result from host 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_mysql_lookup: retrieved 0 rows
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_mysql_get_active: attempting to connect to host 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_mysql: successful connection to host 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: mysql:/etc/postfix/mysql-virtual-email2email.cf: successful query result from host 127.0.0.1
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: dict_mysql_lookup: retrieved 1 rows
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: maps_find: virtual_alias_maps: mysql:/etc/postfix/mysql-virtual-email2email.cf(0,lock|fold_fix|utf8_request): mail@glenburch.com = mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: mail_addr_find: mail@glenburch.com -> mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unlisted_recipient status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unauth_destination
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: reject_unauth_destination: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: permit_auth_destination: mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: ctable_locate: leave existing entry key g@glenned.com?mail@glenburch.com
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: generic_checks: name=reject_unauth_destination status=0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: >>> END Recipient address RESTRICTIONS <<<
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: before input_transp_cleanup: cleanup flags = enable_header_body_filter enable_automatic_bcc enable_address_mapping enable_milters
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: after input_transp_cleanup: cleanup flags = enable_header_body_filter enable_automatic_bcc enable_address_mapping
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: sendmail
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: name_mask: verify
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: connect to subsystem public/cleanup
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: public/cleanup socket: wanted attribute: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: cleanup_protocol
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: public/cleanup socket: wanted attribute: queue_id
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: queue_id
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 4343B3320350
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: public/cleanup socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: send attr flags = 178
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: 4343B3320350: client=mail-qt1-f182.google.com[209.85.160.182]
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250 2.1.5 Ok
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: < mail-qt1-f182.google.com[209.85.160.182]: BDAT 2691 LAST
+Jun  8 18:19:31 Ashley postfix/cleanup[4946]: 4343B3320350: message-id=<7706ce9b-da0c-6b86-d265-4c1ef431b9ba@glenned.com>
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: public/cleanup socket: wanted attribute: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: status
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: 0
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: public/cleanup socket: wanted attribute: reason
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: reason
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute value: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: public/cleanup socket: wanted attribute: (list terminator)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: input attribute name: (end)
+Jun  8 18:19:31 Ashley postfix/smtpd[4940]: > mail-qt1-f182.google.com[209.85.160.182]: 250 2.0.0 Ok: 2691 bytes queued as 4343B3320350
+Jun  8 18:19:31 Ashley postfix/qmgr[4906]: 4343B3320350: from=<g@glenned.com>, size=2863, nrcpt=1 (queue active)
+Jun  8 18:19:31 Ashley postfix/trivial-rewrite[4945]: warning: do not list domain glenburch.com in BOTH mydestination and virtual_mailbox_domains
+Jun  8 18:19:31 Ashley postfix/local[4947]: 4343B3320350: to=<mail@glenburch.com>, relay=local, delay=0.03, delays=0.03/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jun  8 18:19:31 Ashley postfix/qmgr[4906]: 4343B3320350: removed
