@@ -29,7 +29,7 @@
     "dist"
   ],
   "scripts": {
-    "prepublish": "tsc",
+    "prepublish": "rm -rf dist && tsc",
     "build": "tsc"
   }
 }
