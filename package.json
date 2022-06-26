@@ -8,6 +8,7 @@
     "base32-encode": "^2.0.0",
     "csv-parse": "^5.1.0",
     "esm": "^3.2.25",
+    "mongodb": "^4.7.0",
     "otp-generator": "^4.0.0",
     "totp-generator": "^0.0.13"
   },
