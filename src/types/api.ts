@@ -38,6 +38,7 @@ export enum TransactionStatusEnum {
 
 type TransactionBase = {
   month: Month,
+  year: string,
   date: string,
   amount: string
 }
