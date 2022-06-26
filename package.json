@@ -1,6 +1,6 @@
 {
   "name": "glentils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "decription": "Software utilities by Glen.",
   "author": "Glen Burchfield <g@glenned.com> (https://www.glenned.com)",
   "license": "MIT",
@@ -24,7 +24,9 @@
   },
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublish": "tsc",
     "build": "tsc"
