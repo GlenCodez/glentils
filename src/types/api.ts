@@ -82,3 +82,23 @@ export type DailyBalances = {
 }
 
 export type BalancesResponse = DailyBalances
+
+export type MonthEndingBalance = {
+  amount: string,
+  month: Month,
+  year: string
+}
+
+export const MonthsMap = new Map();
+MonthsMap.set("01", Month.JANUARY)
+MonthsMap.set("02", Month.FEBRUARY)
+MonthsMap.set("03", Month.MARCH)
+MonthsMap.set("04", Month.APRIL)
+MonthsMap.set("05", Month.MAY)
+MonthsMap.set("06", Month.JUNE)
+MonthsMap.set("07", Month.JULY)
+MonthsMap.set("08", Month.AUGUST)
+MonthsMap.set("09", Month.SEPTEMBER)
+MonthsMap.set("10", Month.OCTOBER)
+MonthsMap.set("11", Month.NOVEMBER)
+MonthsMap.set("12", Month.DECEMBER)
