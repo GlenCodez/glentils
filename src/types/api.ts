@@ -64,10 +64,12 @@ export type PeriodicTransactionConfig = {
   matchKeys: string []
 }
 
-export type PeriodicProjectedTransaction = TransactionBase & {
+export type PeriodicProjectedTransactionInput = TransactionBase & {
   configId: ObjectId,
   status: TransactionStatusEnum
 }
+
+export type PeriodicProjectedTransaction = ProjectedTransaction
 
 export type DailyBalances = {
   [key:string]: {
