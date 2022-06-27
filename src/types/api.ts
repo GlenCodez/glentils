@@ -73,16 +73,8 @@ export type PeriodicProjectedTransactionInput = TransactionBase & {
 export type PeriodicProjectedTransaction = ProjectedTransaction
 
 export type DailyBalances = {
-  [key:string]: {
-    actual: {
-      transactions: ActualTransaction[],
-      balance: string
-    },
-    projected: {
-      transactions: (ProjectedTransaction | PeriodicProjectedTransaction)[],
-      balance: string
-    }
-  }
+    transactions: (ProjectedTransaction | PeriodicProjectedTransaction)[],
+    balance: string
 }
 
 export type BalancesResponse = DailyBalances
