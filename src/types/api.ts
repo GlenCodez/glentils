@@ -1,4 +1,5 @@
 import {ObjectId} from "mongodb";
+import {AppCollections} from "./db";
 
 export enum Month {
   JANUARY = '01-JANUARY',
@@ -105,3 +106,9 @@ MonthsMap.set("09", Month.SEPTEMBER)
 MonthsMap.set("10", Month.OCTOBER)
 MonthsMap.set("11", Month.NOVEMBER)
 MonthsMap.set("12", Month.DECEMBER)
+
+export type DocHashes = {
+  collection: AppCollections,
+  date: string,
+  hashes: string[]
+}
