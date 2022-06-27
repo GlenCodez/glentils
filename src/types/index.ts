@@ -1,4 +1,1 @@
-export type FirstType = {
-  a: string;
-  b: number;
-}
+export * from "./api"
